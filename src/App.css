@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+
+.headingClass {
+  padding: 40px 0px;
+  background-color: darkmagenta;
+}
+a {
+  margin: 0px 20px;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.links {
+  margin-top: -10px;
+  margin-right: 5%;
+  float: right;
+}
+
+.logo {
+  float: left;
+  margin-left:7% ;
+  margin-top: -10px;
+  color: aliceblue;
+}
+
+li {
+  list-style-type: none;
+  color: blueviolet;
+  font-size: 20px;
+  margin: 0 0px 10px 0;
+  display: inline-block;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.deleteButton {
+  background-color: crimson;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  margin: 4px 2px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-left: 20px ;
+  float: right;
+  margin-right: 50px;
+}
+
+.listBooks {
+  margin-left:50%;
+  transform: translate(-50%, 0%);
+  margin-top: 5%;
+  margin-bottom: 2%;
+  max-width: 600px;
+  height: 250px;
+  text-align: center;
+  overflow-y: scroll;
+  
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(226, 3, 3); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ae0707; 
+}
+
+.title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: darkmagenta;
+  margin-top: 5%;
+  box-shadow: 3px 5px 8px 3px;
+  max-width: 250px;
+  margin-left:50%;
+  transform: translate(-50%, 0%);
+  padding: 3px;
+
+}
+
+.bookDescription {
+  background-color: rgb(234, 234, 234);
+  padding: 15px;
+  margin-bottom: 5px;
+  margin-right: 17%;
+  margin-left: 15%;
+}
+input{
+    border-radius: 25px;
+    border: 2px solid #609;
+    padding: 15px 20px 15px 20px; 
+    width: 200px;
+    height: 15px;
+    margin: 5px; 
+    text-align: center;
+}
+
+#addButton{
+  display: block;
+  margin-left: 50%;
+  margin-top: 10px;
+  transform: translate(-50%, 0);
+  border-radius: 25px;
+  border: 2px solid #609;
+  background-color: #609;
+  color: aliceblue;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  box-shadow: blueviolet 0px 0px 8px 2px;
+  cursor: pointer;
+}
